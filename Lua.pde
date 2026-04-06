@@ -1,8 +1,8 @@
 class Moon {
-  // Each planet object keeps track of its own angle of rotation.
-  float theta;      // Rotation around sun
-  float diameter;   // Size of planet
-  float distance;   // Distance from sun
+  // Each moon object keeps track of its own angle of rotation.
+  float theta;      // Rotation around planet
+  float diameter;   // Size of moon
+  float distance;   // Distance from planet
   float orbitspeed; // Orbit speed
   
   Moon(float distance_, float diameter_) {

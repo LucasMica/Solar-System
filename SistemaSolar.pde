@@ -1,4 +1,4 @@
-// An array of 4 planet objects
+// An array of 3 planet objects
 Planet[] planets = new Planet[3];
 
 void setup() {
