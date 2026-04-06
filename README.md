@@ -1,3 +1,5 @@
+Projeto criado no Processing para fins acadêmicos
+
 *********************************************************************************************************************
 
 ## Onde você aplicou pushMatrix()/popMatrix() e por quê?
