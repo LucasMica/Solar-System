@@ -1,7 +1,5 @@
 Projeto criado no Processing para fins acadêmicos
 
-*********************************************************************************************************************
-
 ## Onde você aplicou pushMatrix()/popMatrix() e por quê?
 
 - O `pushMatrix()` foi aplicado antes de iniciar as transformações de cada astro (Sol, planetas e luas) para salvar o estado atual do sistema de coordenadas. Isso permite que eu use funções como `translate()` e `rotate()` para posicionar um objeto sem que essas transformações acumulem ou interfiram nos objetos seguintes.
@@ -17,6 +15,3 @@ Projeto criado no Processing para fins acadêmicos
 
 - O método `update()` único para cada astro garante o incremento de _theta_ e _orbitSpeed_ de forma independente por instância de Planeta ou Lua.
 - Já as matrizes aninhadas (Cada Lua e Planeta chamando a cada `display()` o seu próprio `pushMatrix()` e `popMatrix()`), permite que as transladação e rotação das Luas sejam em relação aos seus Planetas, por `display()` ser chamado antes de `popMatrix()` de Planeta, sendo que o seu _reset_ da matriz permite o isolamento das órbitas entre os Planetas.
-
-*********************************************************************************************************************
-<sub> Modified by Lucas Michaelsen. </sub>
