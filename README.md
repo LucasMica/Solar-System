@@ -18,4 +18,4 @@ Projeto criado no Processing para fins acadêmicos
 
 ## Parte 2 do projeto
 
-link para acessar a [Parte 2](Etapa-2.md) do atividade prática.
+link para acessar a [Etapa-2](etapa-2.md) do atividade prática.
