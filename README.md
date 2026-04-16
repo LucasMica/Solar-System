@@ -15,3 +15,7 @@ Projeto criado no Processing para fins acadêmicos
 
 - O método `update()` único para cada astro garante o incremento de _theta_ e _orbitSpeed_ de forma independente por instância de Planeta ou Lua.
 - Já as matrizes aninhadas (Cada Lua e Planeta chamando a cada `display()` o seu próprio `pushMatrix()` e `popMatrix()`), permite que as transladação e rotação das Luas sejam em relação aos seus Planetas, por `display()` ser chamado antes de `popMatrix()` de Planeta, sendo que o seu _reset_ da matriz permite o isolamento das órbitas entre os Planetas.
+
+## Parte 2 do projeto
+
+link para acessar a [Parte 2](Etapa-2.md) do atividade prática.
